@@ -1,0 +1,734 @@
+<html  
+		            xmlns:o='urn:schemas-microsoft-com:office:office' 
+		            xmlns:w='urn:schemas-microsoft-com:office:word' 
+	                xmlns='http://www.w3.org/TR/REC-html40'>
+		            <head><!--[if gte mso 9]>
+                         <xml>
+                         <w:WordDocument>
+                         <w:View>Normal</w:View>
+                         <w:Zoom>100</w:Zoom> 
+                         <w:DoNotOptimizeForBrowser/>
+                         </w:WordDocument>
+                         </xml> 
+                        <![endif]--><style>
+                    <!-- /* Style Definitions */
+                    @page Section1
+                    {
+                     size: 8.27in 11.69in; 
+                     margin:0.5in 0.5in 0.5in 0.5in ; 
+                     mso-header-margin:.5in; 
+                     mso-page-orientation: portrait; 
+                     mso-footer-margin:.5in; mso-paper-source:0;}
+                    div.Section1
+                    {
+                     page:Section1;
+                    }
+                    -->
+                   </style></head>
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head><meta http-equiv="Content-Type" charset="utf-8" dir="rtl" lang="ar-sy" /><title>
+	
+            بطاقة مشروع صيانة
+        
+</title>
+    <style type="text/css">
+        @media print {
+            thead {
+                display: table-header-group;
+                border-collapse: collapse;
+                border-bottom: solid 1px;
+            }
+        }
+
+        body {
+            background-color: #5c87b2;
+            font-size: 0.8em;
+            margin: 0;
+            padding: 0;
+            color: Black;
+        }
+
+        * {
+            padding: 0px;
+        }
+
+        a:link {
+            color: #034af3;
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: #505abc;
+        }
+
+        a:hover {
+            color: #1d60ff;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: #12eb87;
+        }
+
+        ul /*, p */ {
+            line-height: 1.6em;
+            padding-right: 8px;
+        }
+        /* HEADINGS   
+----------------------------------------------------------*/ h1, h2, h3, h4, h5, h6 {
+            font-size: 1.1em;
+            color: #000;
+            padding-bottom: 2px;
+        }
+
+        h1 {
+            font-size: 1.5em;
+            padding-bottom: 10px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            padding: 0 0 0 0;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.1em;
+        }
+
+        h4 {
+            font-size: 1.1em;
+        }
+
+        h5, h6 {
+            font-size: 1em;
+        }
+        /* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+        .rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        /* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/ /* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+        .page {
+            width: 98%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #header {
+            position: relative;
+            margin-bottom: 0px;
+            color: #000;
+            padding: 0;
+        }
+
+            #header h1 {
+                font-weight: bold;
+                padding: 5px 0;
+                margin: 0;
+                color: #fff;
+                border: none;
+                line-height: 2em;
+                font-size: 32px !important;
+            }
+
+        #main {
+            padding: 0px 1% 5px 1%;
+            background-color: #fff;
+            margin-bottom: 0px;
+        }
+
+        #footer {
+            color: #999;
+            padding: 10px 0;
+            text-align: center;
+            line-height: normal;
+            margin: 0;
+            font-size: .9em;
+        }
+        /* TAB MENU   
+----------------------------------------------------------*/ table td {
+            padding: 0px;
+            border: solid 1px #000;
+            font-size: 1.0em;
+        }
+        /* TABLE
+----------------------------------------------------------*/ table {
+            border: solid 1px #000;
+            border-collapse: collapse;
+        }
+
+            table td {
+                padding: 5px;
+                border: solid 1px #000;
+            }
+
+                table td.code {
+                    direction: ltr;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+            table th {
+                padding: 5px;
+                text-align: center;
+                vertical-align: middle;
+                background-color: #DFDFDF;
+                border: solid 1px #000;
+            }
+
+        #PageTitle {
+            font-size: 1.1em;
+            font-weight: bold;
+            display: block;
+            text-align: right;
+            margin: 5px;
+            color: White;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <div class="Section1">
+        <div id="header">
+            
+            <div align="left" class="top-secret">
+                <h3>
+                    سري للغاية</h3>
+            </div>
+            
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: center; width: 150px">
+                        <div style="font-size: 0.8em;">
+                            الجمهورية العربية السورية<br />
+                            مركز الدراسات والبحوث العلمية<br />
+                            المعهد العالي للعلوم التطبيقية والتكنولوجيا
+                        </div>
+                    </td>
+                    <th style="text-align: center; vertical-align: middle; font-size: 1.3em;" dir="rtl">
+                        <h3>
+                            بطاقة مشروع صيانة</h3>
+                    </th>
+                    <td dir="ltr" style="text-align: center; vertical-align: middle; width: 150px">
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="main">
+            
+    
+<table width="100%" style="vertical-align: middle; text-align: center; padding: 0px; ">
+    <tr>
+        <th style="white-space: nowrap">اسم النشاط
+        </th>
+        <td colspan="3" style="vertical-align: middle; font-size: 1.7em; font-weight: bold; text-align: center;">
+            
+        </td>
+        <th style="width: 16%; white-space: nowrap">رمز النشاط
+        </th>
+        <td class="code" style="vertical-align: middle; width: 16%;">
+            
+        </td>
+    </tr>
+    <tr>
+        <th rowspan="2" style="white-space: nowrap">تعريف النشاط
+        </th>
+        <td rowspan="2" colspan="3" style="vertical-align: middle; font-size: 1.7em; font-weight: bold; text-align: center;">
+            
+        </td>
+        <th style="width: 16%; white-space: nowrap">رمز المرحلة التطويرية
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="width: 16%; white-space: nowrap">تاريخ بدء النشاط
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="width: 16%; white-space: nowrap">اسم العتاد
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="width: 16%; white-space: nowrap">طبيعة النشاط
+        </th>
+        <td align="center" style="vertical-align: middle; width: 16%;">
+            
+        </td>
+        <th style="white-space: nowrap">
+            الانتهاء المقرر للمشروع
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="white-space: nowrap">تصنيف النشاط
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">وضع النشاط
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">رقم كتاب الطرح
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="white-space: nowrap">الفعالية المنفذة
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">الجهة الطارحة
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">تاريخ كتاب الطرح
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="white-space: nowrap">الفعاليات المساهمة
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">المنتدب
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">رقم الاتفاقية / العقد
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+    <tr>
+        <th style="white-space: nowrap">الوضع المالي / مصدر التمويل
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">المشرف
+        </th>
+        <td style="vertical-align: middle; ">
+            
+        </td>
+        <th style="white-space: nowrap">تاريخ الاتفاقية / العقد
+        </th>
+        <td align="center" style="vertical-align: middle; ">
+            
+        </td>
+    </tr>
+</table>
+
+    <table id="planList" width="100%">
+        <tr>
+            <th colspan="5">
+                الخطة الإجمالية للمشروع
+            </th>
+        </tr>
+        <tr>
+            <th>
+                م
+            </th>
+            <th>
+                اسم المرحلة
+            </th>
+            <th>
+                العدد المطلوب
+            </th>
+            <th>
+                تاريخ بدء المرحلة
+            </th>
+            <th>
+                مدة التنفيذ
+            </th>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td width="5%">
+                1
+            </td>
+            <td width="50%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td width="5%">
+                2
+            </td>
+            <td width="50%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td width="5%">
+                3
+            </td>
+            <td width="50%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td width="5%">
+                4
+            </td>
+            <td width="50%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+            <td width="15%">
+                
+            </td>
+        </tr>
+        
+    </table>
+    <br />
+    <table id="empsList" width="100%">
+        <tr>
+            <th colspan="6">
+                المشاركون في المشروع
+            </th>
+        </tr>
+        <tr>
+            <th width="5%">
+                م
+            </th>
+            <th width="15%">
+                الرقم الذاتي
+            </th>
+            <th width="35%">
+                الاسم والشهرة
+            </th>
+            <th width="15%">
+                الهيئة الوظيفية
+            </th>
+            <th width="15%">
+                نسبة الانشغالية
+            </th>
+            <th width="15%">
+                صفة المساهمة
+            </th>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                1
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br />
+            </td>
+            <td>
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                2
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br />
+            </td>
+            <td>
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                3
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <br />
+            </td>
+            <td>
+            </td>
+        </tr>
+        
+    </table>
+    <br />
+    <table id="Table1" width="100%">
+        <tr>
+            <th colspan="6">
+                خطة الإنفاق
+            </th>
+        </tr>
+        <tr>
+            <th width="5%">
+                م
+            </th>
+            <th width="15%">
+                نوع الكلفة
+            </th>
+            <th width="35%">
+                البيان
+            </th>
+            <th width="15%">
+                شراء محلي
+            </th>
+            <th width="15%">
+                شراء خارجي
+            </th>
+            <th width="15%">
+                نوع القطع
+            </th>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                1
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                2
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        
+    </table>
+    <br />
+    <table id="thelist" width="100%">
+        <tr>
+            <th colspan="5">
+                خطة الإنفاق المتوقعة حسب السنوات
+            </th>
+        </tr>
+        <tr>
+            <th width="5%">
+                م
+            </th>
+            <th>
+                العام
+            </th>
+            <th>
+                شراء محلي
+            </th>
+            <th>
+                شراء خارجي
+            </th>
+            <th>
+                نوع القطع
+            </th>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                1
+            </td>
+            <td>
+                
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        
+        <tr style="text-align: center">
+            <td>
+                2
+            </td>
+            <td>
+                
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        
+    </table>
+    
+<br />
+<table width="100%" style="text-align: center">
+    <tr>
+        <th colspan="2" style="width: 16%;">رئيس فريق العمل
+        </th>
+        <th colspan="2" style="width: 16%;">مدير النشاط
+        </th>
+        <th colspan="2" style="width: 16%;">رئيس القسم / مدير الإدارة
+        </th>
+        <th colspan="2" style="width: 16%;">مدير الفرع
+        </th>
+        <th colspan="2" style="width: 16%;">التخطيط الفرعي
+        </th>
+        <th colspan="2">مدير الفعالية
+        </th>
+    </tr>
+    <tr>
+        <td style="width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+            
+        </td>
+        <td style="width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+            
+        </td>
+        <td style="max-width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+
+        </td>
+        <td style="width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+
+        </td>
+        <td style="width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+            
+        </td>
+        <td style="width: 40px">
+            <b>الاسم</b>
+        </td>
+        <td style="width:100px;">
+            د. عمران قوبا
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+        <td>
+            <b>التوقيع</b>
+        </td>
+        <td></td>
+    </tr>
+</table>
+
+        </div>
+    </div>
+</body>
+</html>

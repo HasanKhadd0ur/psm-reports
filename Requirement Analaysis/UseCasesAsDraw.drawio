@@ -1,0 +1,429 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram id="p1717bf961a6a4a42a42822ceeaf3ba79_156324248" name="UseCaseDiagram1">
+    <mxGraphModel dx="1714" dy="1616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4d7ff9a873e946ac8aa4578dd4b7fd50" value="المستخدم" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="-1.8337402" y="-335.8153" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="92bf27663832475dbcbf1d88b229fde3" value="تسجيل الدخول" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="185.28192" y="-430.813" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="80c6ee4d3de943459faa9bd5e9d26f26" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="4d7ff9a873e946ac8aa4578dd4b7fd50" target="92bf27663832475dbcbf1d88b229fde3" edge="1">
+          <mxGeometry x="33.469803" y="-399.43338" width="167.0604" height="120.86676" as="geometry">
+            <mxPoint x="48" y="-286" as="sourcePoint" />
+            <mxPoint x="185" y="-393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38407b1fb0124ecfa27696709f3e7caf" value="إدارة الحساب" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="451.72266" y="-432.412" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5c84ff551c3e4e308c77d256180df1fc" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="4d7ff9a873e946ac8aa4578dd4b7fd50" target="38407b1fb0124ecfa27696709f3e7caf" edge="1">
+          <mxGeometry x="-171.04826" y="-399.93976" width="632.10126" height="133.87952" as="geometry">
+            <mxPoint x="48" y="-286" as="sourcePoint" />
+            <mxPoint x="456" y="-381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53eb99b25156406e8fc78116782c1a2d" value="رئيس فريق العمل" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="213.41113" y="446.0983" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5f8ba686a57a45c78e453243b360b64a" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="dbc1f5d7c451465fae4862155e4f2a9c" edge="1">
+          <mxGeometry x="-38" y="124" width="261" height="348" as="geometry">
+            <mxPoint x="213" y="462" as="sourcePoint" />
+            <mxPoint x="-28" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1f7cc8f47228452ca311cffe4fc52bc9" value="إدارة المشاركين" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="407.21844" y="704.76715" width="120.97168" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="4633f5d5545f4469885d000cee0b6c5c" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="1f7cc8f47228452ca311cffe4fc52bc9" edge="1">
+          <mxGeometry x="242.05188" y="496" width="215.89624" height="215" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="436" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fc05ea107c82497a83f72ae605d8e505" value="متابعة مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="654.5716" y="377.58173" width="120.97168" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="cc4223946c954f458dc8427ee9f56f4b" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="fc05ea107c82497a83f72ae605d8e505" edge="1">
+          <mxGeometry x="263" y="266.9658" width="523.093" height="230.03421" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="657" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddb15516c90f4d7e8234ddef490c4002" value="تخطيط مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="589.5913" y="136.77261" width="120.97168" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="34d1b02ebcdc4b488734e1798772883a" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="ddb15516c90f4d7e8234ddef490c4002" edge="1">
+          <mxGeometry x="245.24551" y="170.89633" width="467.76797" height="326.10367" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="589" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4419b1e030c142219ae096c92dcb519e" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="53eb99b25156406e8fc78116782c1a2d" edge="1">
+          <mxGeometry x="196" y="521" width="68" height="60.913086" as="geometry">
+            <mxPoint x="213" y="546" as="sourcePoint" />
+            <mxPoint x="213" y="546" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="214" y="546" />
+              <mxPoint x="220.74388" y="547.2645" />
+              <mxPoint x="222.1861" y="547.5" />
+              <mxPoint x="223.62831" y="547.7355" />
+              <mxPoint x="223.62831" y="547.7355" />
+              <mxPoint x="222.1861" y="547.5" />
+              <mxPoint x="220.74388" y="547.2645" />
+              <mxPoint x="214" y="546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="db6a0f428e784cfe921c7174314864f9" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" edge="1">
+          <mxGeometry x="-92" y="7.086916" width="120" height="161.91309" as="geometry">
+            <mxPoint x="-52" y="158" as="sourcePoint" />
+            <mxPoint x="-52" y="158" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-52" y="158" />
+              <mxPoint x="-52" y="158" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbc1f5d7c451465fae4862155e4f2a9c" value="الموظف" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="-52.62024" y="33.91223" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f0ca272d608d4801a2e545e0553bff76" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="dbc1f5d7c451465fae4862155e4f2a9c" target="4d7ff9a873e946ac8aa4578dd4b7fd50" edge="1">
+          <mxGeometry x="-35.551514" y="-246.40833" width="74" height="290" as="geometry">
+            <mxPoint x="-20" y="34" as="sourcePoint" />
+            <mxPoint x="23" y="-236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6b501e10359e460fb2947882cdebc852" value="استعراض المشاريع المشارك بها" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="347.71234" y="-191.40765" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="7a2412089b734d209fd13752a422102e" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="dbc1f5d7c451465fae4862155e4f2a9c" target="6b501e10359e460fb2947882cdebc852" edge="1">
+          <mxGeometry x="-20.928932" y="-167.31042" width="377.3768" height="265.66156" as="geometry">
+            <mxPoint x="-3" y="80" as="sourcePoint" />
+            <mxPoint x="347" y="-154" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="19" y="58" />
+              <mxPoint x="81.89473" y="-23.261997" />
+              <mxPoint x="136.84473" y="-60" />
+              <mxPoint x="191.79472" y="-96.73801" />
+              <mxPoint x="314" y="-139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41c8a81788824e5797cd97c27f9845af" value="استعراض الانشغالية" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="655.05743" y="-194.47656" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="85d7872ec5a74d89a9be2b1a2f4e0d93" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="dbc1f5d7c451465fae4862155e4f2a9c" target="41c8a81788824e5797cd97c27f9845af" edge="1">
+          <mxGeometry x="-7.623699" y="-169.23607" width="672.97125" height="272.40244" as="geometry">
+            <mxPoint x="-3" y="84" as="sourcePoint" />
+            <mxPoint x="655" y="-157" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="58" y="68" />
+              <mxPoint x="285.194" y="16.837002" />
+              <mxPoint x="388.5" y="-21" />
+              <mxPoint x="491.806" y="-58.837" />
+              <mxPoint x="613" y="-136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9c5cba57e4774aae97484f18d1bb724d" value="مدير المشروع" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="102.798096" y="1062.3645" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c5fa4b823de44a008c9fec516aeade0e" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="dbc1f5d7c451465fae4862155e4f2a9c" edge="1">
+          <mxGeometry x="-56.7157" y="126.165955" width="178" height="945.5371" as="geometry">
+            <mxPoint x="112" y="1062" as="sourcePoint" />
+            <mxPoint x="-28" y="134" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="92" y="1000" />
+              <mxPoint x="-0.80462074" y="760.671" />
+              <mxPoint x="-17" y="666" />
+              <mxPoint x="-33.19538" y="571.329" />
+              <mxPoint x="10.571727" y="542.524" />
+              <mxPoint x="8.844727" y="459" />
+              <mxPoint x="7.1177263" y="375.476" />
+              <mxPoint x="-22" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ba7a936299642fcadf298e9b39a835e" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="1f7cc8f47228452ca311cffe4fc52bc9" edge="1">
+          <mxGeometry x="121.675446" y="746.32495" width="425.58817" height="366.67505" as="geometry">
+            <mxPoint x="153" y="1112" as="sourcePoint" />
+            <mxPoint x="409" y="754" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="1076" />
+              <mxPoint x="187.808" y="936.206" />
+              <mxPoint x="228" y="880" />
+              <mxPoint x="268.19202" y="823.794" />
+              <mxPoint x="381" y="774" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="655a7ce567964efd9c57900fd663a6ab" value="إدارة خطة الإنفاق" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="602.5482" y="881.5034" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="0aa2fa6c029149e2b13256b1a60275e8" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="655a7ce567964efd9c57900fd663a6ab" edge="1">
+          <mxGeometry x="146.14139" y="906.46436" width="465.9534" height="221.80249" as="geometry">
+            <mxPoint x="153" y="1112" as="sourcePoint" />
+            <mxPoint x="602" y="919" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="1100" />
+              <mxPoint x="284.507" y="1068.301" />
+              <mxPoint x="355" y="1038" />
+              <mxPoint x="425.493" y="1007.699" />
+              <mxPoint x="563" y="938" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7d21e879be0c4d8b90239c26682f5bd0" value="إدارة معلومات المشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="574.5125" y="1186.3503" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4ed40b106f2c479fad6a51031475d467" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="7d21e879be0c4d8b90239c26682f5bd0" edge="1">
+          <mxGeometry x="148.78246" y="966.6458" width="456.94385" height="263.88214" as="geometry">
+            <mxPoint x="153" y="1112" as="sourcePoint" />
+            <mxPoint x="578" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="182" y="1119" />
+              <mxPoint x="272.275" y="1143.114" />
+              <mxPoint x="339" y="1158.5" />
+              <mxPoint x="405.725" y="1173.886" />
+              <mxPoint x="540" y="1202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7d3aed90ed043bf82e3f25cd1b93cdc" value="الوكيل العلمي" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="125.298096" y="1560.2681" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e64b11bcd7124411a379a12fbb353a4d" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="dbc1f5d7c451465fae4862155e4f2a9c" edge="1">
+          <mxGeometry x="-110" y="126.48038" width="245" height="1450.5197" as="geometry">
+            <mxPoint x="125" y="1567" as="sourcePoint" />
+            <mxPoint x="-28" y="134" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="103" y="1530" />
+              <mxPoint x="20.127003" y="1477.481" />
+              <mxPoint x="-13" y="1331" />
+              <mxPoint x="-46.127003" y="1184.519" />
+              <mxPoint x="-82.86" y="773.887" />
+              <mxPoint x="-86" y="634" />
+              <mxPoint x="-89.14" y="494.11298" />
+              <mxPoint x="-42.106" y="518.5" />
+              <mxPoint x="-33" y="440" />
+              <mxPoint x="-23.894001" y="361.5" />
+              <mxPoint x="-29" y="182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ec7026d9d824240bad6d6d601f6e3a6" value="استعراض التقارير" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="482.54822" y="1301.2738" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="865342ea4bb84eab9e6d3d2c70bc481c" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="4ec7026d9d824240bad6d6d601f6e3a6" edge="1">
+          <mxGeometry x="153.18465" y="1328.275" width="340.46002" height="282.72498" as="geometry">
+            <mxPoint x="175" y="1610" as="sourcePoint" />
+            <mxPoint x="482" y="1339" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="194" y="1585" />
+              <mxPoint x="245.801" y="1492.547" />
+              <mxPoint x="294" y="1450" />
+              <mxPoint x="342.199" y="1407.453" />
+              <mxPoint x="452" y="1356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="89160ea3da1147648c6006c7d0e22e13" value="إلغاء مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="492.54822" y="1416.1973" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="5cac7957e46d476da5bc884903514d42" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="89160ea3da1147648c6006c7d0e22e13" edge="1">
+          <mxGeometry x="166.08153" y="1459.9692" width="345.174" height="171.06055" as="geometry">
+            <mxPoint x="175" y="1610" as="sourcePoint" />
+            <mxPoint x="504" y="1476" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="198" y="1599" />
+              <mxPoint x="269.347" y="1558.038" />
+              <mxPoint x="321" y="1537" />
+              <mxPoint x="372.653" y="1515.962" />
+              <mxPoint x="475" y="1486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b96ff2b0f7434ea39fc7ab306938de5b" value="متابعة المراحل" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="867.22076" y="340.58173" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4434bdbb6b71417bb92c313643691995" value="" style="html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="fc05ea107c82497a83f72ae605d8e505" target="b96ff2b0f7434ea39fc7ab306938de5b" edge="1">
+          <mxGeometry x="755" y="354.21313" width="119.88306" height="52.786865" as="geometry">
+            <mxPoint x="765" y="395" as="sourcePoint" />
+            <mxPoint x="868" y="372" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="390" />
+              <mxPoint x="777.829" y="368.611" />
+              <mxPoint x="794" y="365" />
+              <mxPoint x="810.171" y="361.389" />
+              <mxPoint x="856" y="371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50b6a03449574652b47d9afdacef885f_include" value="include" style="text;portConstraint=eastwest;overflow=hidden;rotatable=0;" parent="4434bdbb6b71417bb92c313643691995" vertex="1">
+          <mxGeometry y="24.239014" width="65.06055" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="25a13221eed845148c533aa096282045" value="متابعة العاملين" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="867.22076" y="456.34216" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="34ae1ede3c414c0998a50937913dd2f2" value="" style="html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="fc05ea107c82497a83f72ae605d8e505" target="25a13221eed845148c533aa096282045" edge="1">
+          <mxGeometry x="757" y="424" width="120.01648" height="99" as="geometry">
+            <mxPoint x="767" y="434" as="sourcePoint" />
+            <mxPoint x="870" y="482" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="768" y="437" />
+              <mxPoint x="770.6049" y="446.70587" />
+              <mxPoint x="775.5433" y="453.58173" />
+              <mxPoint x="780.4816" y="460.45758" />
+              <mxPoint x="783.6249" y="473.3335" />
+              <mxPoint x="798.4546" y="477.79517" />
+              <mxPoint x="813.2843" y="482.25684" />
+              <mxPoint x="859" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="502a8ad24b6849e39da7c8decac33c6f_include" value="include" style="text;portConstraint=eastwest;overflow=hidden;rotatable=0;" parent="34ae1ede3c414c0998a50937913dd2f2" vertex="1">
+          <mxGeometry y="70.45215" width="65.06055" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="f84eafbd7db443e991bdda115505190a" value="إصدار تقرير" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="655.05743" y="690.76715" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="e336f1ab196a40f5a5c90dd9a1858e71" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="f84eafbd7db443e991bdda115505190a" edge="1">
+          <mxGeometry x="36.84635" y="496" width="854.7542" height="329.87555" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="655" y="726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8989e1c1f10349f4aec2326f5d310b7a" value="طرح مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="504.45544" y="1644.8911" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="424bcee1baf34995bc633c9c6d01e817" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="8989e1c1f10349f4aec2326f5d310b7a" edge="1">
+          <mxGeometry x="171.87776" y="1589.7646" width="339.2445" height="102.4707" as="geometry">
+            <mxPoint x="175" y="1610" as="sourcePoint" />
+            <mxPoint x="507" y="1671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9cc392e946fa495d8d907158aeffe44b" value="تعديل المتابعة" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="1113.2285" y="161.82126" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="20551c0a613f4962bb52ca1b4063b60e" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="9cc392e946fa495d8d907158aeffe44b" edge="1">
+          <mxGeometry x="255.67642" y="107.551834" width="1138.5027" height="445.44275" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="1113" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aba820738a5a45229fd1b73b61849a42" value="تعديل الانشغالية" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="1218.2285" y="277.55597" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cc450eece8bf44b384b360639b2f146a" value="تعديل انجاز المراحل" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="1063.7819" y="295.55597" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="585066db4b9540019ffa61de79c85ec2" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="f84eafbd7db443e991bdda115505190a" edge="1">
+          <mxGeometry x="138.7432" y="721.2752" width="673.59863" height="391.7248" as="geometry">
+            <mxPoint x="153" y="1112" as="sourcePoint" />
+            <mxPoint x="655" y="728" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="485de45904fb4f36be96977f33e0a7b1" value="إضافة خطة زمنية" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="602.5482" y="1033.9269" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="492b7f22614648638000cc94c18882dc" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="9c5cba57e4774aae97484f18d1bb724d" target="485de45904fb4f36be96977f33e0a7b1" edge="1">
+          <mxGeometry x="151.7212" y="1053.046" width="452.55762" height="82.90796" as="geometry">
+            <mxPoint x="153" y="1112" as="sourcePoint" />
+            <mxPoint x="602" y="1076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d90e020de0734bf1a9cde8afc86f27da" value="رئيس الفعالية" style="shape=umlActor;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="18.957031" y="2071.52" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2c0659030914447d9535408480c1108d" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="d90e020de0734bf1a9cde8afc86f27da" target="dbc1f5d7c451465fae4862155e4f2a9c" edge="1">
+          <mxGeometry x="-221" y="126.36067" width="275" height="1955.6393" as="geometry">
+            <mxPoint x="44" y="2072" as="sourcePoint" />
+            <mxPoint x="-28" y="134" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="8" y="1918" />
+              <mxPoint x="-173.696" y="1392.266" />
+              <mxPoint x="-185" y="1088" />
+              <mxPoint x="-196.304" y="783.734" />
+              <mxPoint x="-53" y="284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4dc00b20a7bc45d0b9fa914a8d97775c" value="استعرض المشاريع ضمن الفعالية " style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="454.5125" y="1982.0094" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="199a05b86d44450c8e71a5b2a5524b41" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="d90e020de0734bf1a9cde8afc86f27da" target="4dc00b20a7bc45d0b9fa914a8d97775c" edge="1">
+          <mxGeometry x="65.08527" y="2014.8706" width="398.82944" height="127.25879" as="geometry">
+            <mxPoint x="69" y="2122" as="sourcePoint" />
+            <mxPoint x="459" y="2034" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="301cd1f2451f4de9a9d1f00f7a43d194" value="إضافة المراحل" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="805.4756" y="30.560791" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="6edc0186bc8f4d978ee8c17c6fdd944a" value="" style="html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="ddb15516c90f4d7e8234ddef490c4002" target="301cd1f2451f4de9a9d1f00f7a43d194" edge="1">
+          <mxGeometry x="684" y="86" width="151" height="79" as="geometry">
+            <mxPoint x="694" y="149" as="sourcePoint" />
+            <mxPoint x="825" y="96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b8a5bb97e9d6451cb7f97e8c1892c0ad_include" value="include" style="text;portConstraint=eastwest;overflow=hidden;rotatable=0;" parent="6edc0186bc8f4d978ee8c17c6fdd944a" vertex="1">
+          <mxGeometry y="50.45215" width="65.06055" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eb94b535ec624ce3ae4448c787e72cfd" value="إضافة المشاركين" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="820.5482" y="149.82126" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="e8eacde0e3b044f995dd977a781e51f0" value="" style="html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="ddb15516c90f4d7e8234ddef490c4002" target="eb94b535ec624ce3ae4448c787e72cfd" edge="1">
+          <mxGeometry x="700" y="165" width="130" height="57" as="geometry">
+            <mxPoint x="710" y="175" as="sourcePoint" />
+            <mxPoint x="820" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cd2603cc39e541b0be9c6094509ee89b_include" value="include" style="text;portConstraint=eastwest;overflow=hidden;rotatable=0;" parent="e8eacde0e3b044f995dd977a781e51f0" vertex="1">
+          <mxGeometry y="28.452148" width="65.06055" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8f0d6525be844d4b84b0b63af3543fa8" value="انجاز مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="643.5716" y="544.42444" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="af51ebf2d33d4e45ad08fcb5066dfb38" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="53eb99b25156406e8fc78116782c1a2d" target="8f0d6525be844d4b84b0b63af3543fa8" edge="1">
+          <mxGeometry x="259.7005" y="476.01495" width="390.599" height="114.97009" as="geometry">
+            <mxPoint x="263" y="496" as="sourcePoint" />
+            <mxPoint x="646" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b06f69b0ef6c45e593942fca76525d95" value="استعراض حالة المشاريع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="504.45544" y="1522.7681" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="44db5ef31c7e453c81c7066f114caa74" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="b06f69b0ef6c45e593942fca76525d95" edge="1">
+          <mxGeometry x="172.90613" y="1546.2764" width="335.18774" height="76.63672" as="geometry">
+            <mxPoint x="175" y="1610" as="sourcePoint" />
+            <mxPoint x="505" y="1568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="938237e59539484b9bb8ab8aa98bce5e" value="استعراض حالة مشروع" style="ellipse;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" vertex="1">
+          <mxGeometry x="429.94995" y="1744.0939" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="85efef994a514e5cb34639a9dba9b163" value="" style="startArrow=none;startFill=0;endArrow=none;endFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="e7d3aed90ed043bf82e3f25cd1b93cdc" target="938237e59539484b9bb8ab8aa98bce5e" edge="1">
+          <mxGeometry x="165.89455" y="1597.477" width="304.21088" height="165.0459" as="geometry">
+            <mxPoint x="175" y="1610" as="sourcePoint" />
+            <mxPoint x="460" y="1749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e5db08a67bd495a84824f0a694fe7b2" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="aba820738a5a45229fd1b73b61849a42" target="9cc392e946fa495d8d907158aeffe44b" edge="1">
+          <mxGeometry x="1172" y="226" width="74" height="79" as="geometry">
+            <mxPoint x="1234" y="289" as="sourcePoint" />
+            <mxPoint x="1184" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="87d257d50f714b59b8a10a11894ba4e5" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;html=1;strokeColor=#555555;strokeWidth=2;shadow=1;fillColor=#F2F2F2;swimlaneFillColor=#F2F2F2;" parent="1" source="cc450eece8bf44b384b360639b2f146a" target="9cc392e946fa495d8d907158aeffe44b" edge="1">
+          <mxGeometry x="1105" y="225" width="74" height="83" as="geometry">
+            <mxPoint x="1124" y="295" as="sourcePoint" />
+            <mxPoint x="1160" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
