@@ -1,0 +1,55 @@
+<div class="modal-header">
+    <button type="button" class="btn-close" (click)="onClose()" ></button>
+    <h5 class="modal-title text-center">إضافة  عنصر جديد </h5>
+  </div>
+  <div class="modal-body">
+    <form #form="ngForm" (ngSubmit)="onSubmit()" #projectForm="ngForm">
+      <div class="row">
+  
+        <div class="mb-3 col-3  offset-1">
+          <label for="stepName" class="form-label">نوع الكلفة</label>
+          <input type="text" name="stepName" id="stepName" class="form-control" [(ngModel)]="request.costType" required>
+        </div>
+        
+        <div class="mb-3 col-3">
+          <label for="start" class="form-label">تاريخ الانفاق المتوقع</label>
+          <input type="date" id="start" class="form-control" [(ngModel)]="request.expectedSpendingDate" name="start" required>
+        </div>
+  
+      <div class="mb-3 col-3">
+        <label for="worker" class="form-label">الكلفة  بالليرة السورية</label>
+        <input  type="number" id="worker" class="form-control" [(ngModel)]="request.localPurchase" name="worker" required>
+      </div>
+      
+      </div>
+      <div class="row">
+        <div class="mb-3 col-9 offset-1" >
+          <label for="decription" class="form-label">البيان</label>
+          <textarea col="4" name="worker" id="decription" class="form-control" [(ngModel)]="request.description"  minlength="15" required>
+            </textarea>
+        </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-3  offset-1">
+            <label for="completion" class="form-label">الشراء الخارجي </label>
+            <input  id="completion" class="form-control" [(ngModel)]="request.externalPurchase.ammount" name="completion" required>
+          </div>
+          
+        <div class="mb-3 col-3">
+          <label for="duration" class="form-label">نوغ القطع</label>
+          <select  id="duration" class="form-control select " [(ngModel)]="request.externalPurchase.currency" name="duration" required>
+          <option value="USA">USA</option>  
+          <option value="EUR">EUR</option>  
+            
+        </select>
+        </div>
+  
+        </div>
+      <div class="row ">
+        <button  [disabled]="form.invalid" type="submit" class="  m-4 col-3 btn btn-primary">إضافة</button>
+        <div  class="btn m-4  btn-secondary col-3" (click)="onClose()" >إغلاق</div>
+     
+      </div>
+       </form>
+  </div>
+  

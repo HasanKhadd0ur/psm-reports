@@ -1,0 +1,29 @@
+    <div class="wrapper vh-100">
+        <div class="row align-items-center h-100">
+          <form class="col-lg-3 col-md-4 col-10 mx-auto text-center">
+            <a class="navbar-brand mx-auto mt-2 flex-fill text-center" href="./index.html">
+              <img id="logo" class="navbar-brand-img brand-md"
+              src="/assets/images/logo/logo.ico"
+              alt="logo">
+              <h3 class="h3 mb-3">نظام إدارة حالة المشاريع</h3>              
+            </a>
+
+            <div class="form-group">
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" name="email" [(ngModel)]="loginRequest.email" class="form-control form-control-lg" placeholder="Email address" required="" autofocus="">
+            </div>
+            <div class="form-group">
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword"name="password" [(ngModel)]="loginRequest.passWord" class="form-control form-control-lg" placeholder="Password" required="">
+            </div>
+            <!-- <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Stay logged in </label>
+            
+              </div> -->
+            <button class="btn  btn-primary btn-block" (click)="onLogin()">تسجيل الدخول</button>
+            
+            <p class="mt-5 mb-3 text-muted">© 2024</p>
+          </form>
+        </div>
+      </div>

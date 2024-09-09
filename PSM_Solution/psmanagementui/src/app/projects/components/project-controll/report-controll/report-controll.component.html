@@ -1,0 +1,98 @@
+<div class="row align-items-center mb-4">
+    <div class=" mb-4 text-center">
+      <strong>تقارير المشروع</strong>
+    </div>
+    <div class="row">
+      <div
+        class="col-md-6 col-lg-4"
+        [routerLink]="['/reports/definition/', project.id]"
+      >
+        <div class="card shadow mb-4" >
+          <div class="card-body file-list">
+            <div class="d-flex align-items-center">
+              <div class="circle circle-md bg-secondary">
+                <span class="fe fe-credit-card fe-16 text-white"></span>
+              </div>
+              <div class="flex-fill ml-4 fname">
+                <strong> بطاقة المشروع</strong><br />
+              </div>
+            </div>
+          </div>
+          <!-- .card-body -->
+        </div>
+        <!-- .card -->
+      </div>
+      <!-- .col -->
+      <div class="col-md-6 col-lg-4" [routerLink]="['/reports/timeline',project.id]">
+        <div class="card shadow mb-4">
+          <div class="card-body file-list">
+            <div class="d-flex align-items-center">
+              <div class="text-center">
+                <div class="circle circle-md bg-secondary">
+                  <span class="fe fe-users fe-16 text-white"></span>
+                </div>
+              </div>
+              <div class="flex-fill ml-4 fname">
+                <strong>بطاقة الخطة الزمنية</strong><br />
+              </div>
+            </div>
+          </div>
+          <!-- .card-body -->
+        </div>
+        <!-- .card -->
+      </div>
+
+      <!-- .col -->
+      <div
+        class="col-md-6 col-lg-4"
+       
+      >
+        <div class="card shadow mb-4" [routerLink]="['/reports/completion',project.id]">
+          <div class="card-body file-list">
+            <div class="d-flex align-items-center">
+              <div class="circle circle-md bg-secondary">
+                <span class="fe fe-map fe-16 text-white"></span>
+              </div>
+              <div class="flex-fill ml-4 fname">
+                <strong>بطاقة انجاز</strong><br />
+              </div>
+            </div>
+          </div>
+          <!-- .card-body -->
+        </div>
+        <!-- .card -->
+      </div>
+      <!-- .row -->
+    </div>
+    <div class="col-md-6 col-lg-4"  [routerLink]="['/reports/history',project.id]">
+      <div class="card shadow mb-4">
+        <div class="card-body file-list">
+          <div class="d-flex align-items-center">
+            <div class="circle circle-md bg-secondary">
+              <span class="fe fe-map fe-16 text-white"></span>
+            </div>
+            <div class="flex-fill ml-4 fname">
+              <strong>بطاقة تاريخ متابعة </strong><br />
+            </div>
+          </div>
+        </div> <!-- .card-body -->
+      </div> <!-- .card -->
+    </div>
+    <div class="col-md-6 col-lg-4" [routerLink]="['/reports/spends/',project.id]">
+      <div class="card shadow mb-4">
+        <div class="card-body file-list">
+          <div class="d-flex align-items-center">
+            <div class="text-center">
+              <div class="circle circle-md bg-secondary">
+                <span class="fe fe-users fe-16 text-white"></span>
+              </div>
+            </div>
+            <div class="flex-fill ml-4 fname">
+              <strong>خطة الإنفاق السنوية</strong><br />
+            </div>
+          </div>
+        </div>
+        <!-- .card-body -->
+      </div>
+      <!-- .card -->
+    </div>

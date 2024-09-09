@@ -1,0 +1,8 @@
+<section  *ngIf="employeeParticipates" class="row">
+
+    <participate-item class="col-8 offset-2" *ngFor="let participate of employeeParticipates" [employeeParticipate]="participate"></participate-item>
+
+    <div *ngIf="employeeParticipates.length==0">
+        للأسف أنت لم تشارك حتى الآن بأي مشروع
+    </div>
+</section>

@@ -1,0 +1,54 @@
+<div class="modal-header">
+  <button type="button" class="btn-close" (click)="onClose()" ></button>
+  <h5 class="modal-title text-center">إضافة  مرحلة جديدة</h5>
+</div>
+<div class="modal-body">
+  <form (ngSubmit)="onSubmit()" #projectForm="ngForm">
+    <div class="row">
+
+      <div class="mb-3 col-3  offset-1">
+        <label for="stepName" class="form-label">اسم المرحلة</label>
+        <input type="text" name="stepName" id="stepName" class="form-control" [(ngModel)]="request.stepInfo.stepName" required>
+      </div>
+      
+      <div class="mb-3 col-3">
+        <label for="start" class="form-label">تاريخ البدء</label>
+        <input type="date" id="start" class="form-control" [(ngModel)]="request.stepInfo.startDate" name="start" required>
+      </div>
+
+    <div class="mb-3 col-3">
+      <label for="worker" class="form-label">عدد العمال المطلوب</label>
+      <input  id="worker" class="form-control" [(ngModel)]="request.stepInfo.numberOfWorker" name="worker" required>
+    </div>
+    
+    </div>
+    <div class="row">
+      <div class="mb-3 col-8 offset-1" >
+        <label for="decription" class="form-label">الوصف</label>
+        <textarea col="3" name="worker" id="decription" class="form-control" [(ngModel)]="request.stepInfo.description"  required>
+          </textarea>
+      </div>
+      </div>
+      <div class="row">
+        <div class="mb-3 col-3  offset-1">
+          <label for="completion" class="form-label">نسبة الانجاز</label>
+          <input  id="completion" class="form-control" [(ngModel)]="request.currentCompletionRatio" name="completion" required>
+        </div>
+        
+      <div class="mb-3 col-3">
+        <label for="duration" class="form-label"> المدة (أسبوع)</label>
+        <input  id="duration" class="form-control" [(ngModel)]="request.stepInfo.duration" name="duration" required>
+      </div>
+
+    <div class="mb-3 col-3">
+      <label for="weight" class="form-label">الثقل</label>
+      <input id="weight" name="weight" class="form-control" [(ngModel)]="request.weight"  required>
+    </div>
+      </div>
+    <div class="row ">
+      <button type="submit" [disabled]="projectForm.invalid" class="col-5 m-4 btn btn-primary">إضافة</button>
+      <div  class="col-5 m-4 btn btn-secondary" (click)="onClose()" >إغلاق</div>
+   
+    </div>
+     </form>
+</div>

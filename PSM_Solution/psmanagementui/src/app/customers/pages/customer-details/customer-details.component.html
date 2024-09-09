@@ -1,0 +1,119 @@
+<div class="container-fluid" *ngIf="customer">
+    <div class="row justify-content-center">
+      <div class="col-8 offset-2 ">
+        <div class="card shadow">
+          <div class="card-body">
+            <div class="col-6 col-sm-12 text-center mb-4">
+                <img src="/assets/images/users/4.jpg" class="navbar-brand-img brand-sm mx-auto mb-4" alt="...">
+                
+                <h3 class="mb-0 text-uppercase">{{customer.customerName}}</h3>
+                 <p> <small>{{customer.email}}</small></p>                  
+              </div>
+         
+            </div>
+            <hr>
+            <div class="row  ml-4">
+                <p><strong>العنوان</strong></p>
+                <p>المدينة {{customer.address.city}}</p>
+                <p>الشارع {{customer.address.streetName}} {{customer.address.streetNumber}}</p>
+            
+                
+            </div>
+            <div class="row col-8  ">
+              <table class="table offset-2">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>طريقة الاتصال</th>
+                    <th>قيمة الاتصال</th>
+                    <th>تعديل </th>
+                    
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let contact of customer.contactInfo ;index as i ">
+                    <td class="text-center" >{{i +1}}</td>
+                    <td class="text-center">{{contact.contactType}}</td>
+                    <td class="text-center">{{contact.contactValue}}</td>
+                    <td class="text-center"  >
+                      <button class="btn btn-danger"
+                        [disabled]="!canEditCustomer()"
+                       (click)="openRemoveConatact(contact)">
+                        إزالة
+                      </button>
+                    </td>
+                    
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div *ngIf="canEditCustomer()" class="row mb-4">
+
+                <button  class="col-3 offset-1 m-4 btn btn-danger" (click)="openModal('delete')">إزالة</button>
+                <button class="col-3 offset-1 m-4 btn btn-primary" (click)="openModal('edit')">تعديل</button>
+                
+                <button  class="col-3 m-4 btn btn-primary" (click)="openAddConatact()">إضافة معلومة اتصال</button>
+            
+            </div>
+            
+          </div> <!-- /.card-body -->
+        </div> <!-- /.card -->
+      </div> <!-- /.col-12 -->
+</div> <!-- .row -->
+
+
+<div *ngIf="customer" class="modal   fade" id="customerModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="modalLabel">{{ modalTitle }}</h5>
+
+      </div>
+      <div class="modal-body">
+        <!-- Edit Form -->
+        <div *ngIf="modalMode === 'edit'">
+          <form (ngSubmit)="saveCustomer()">
+              <div class="row">
+
+                  
+                  <div class="mb-3 col-5">
+                    <label for="expectedSpendingDate" class="form-label">البريد الاكتروني</label>
+                    <input type="date" id="expectedSpendingDate" class="form-control" [(ngModel)]="selectedCustomer.email" name="expectedSpendingDate" required>
+                  </div>
+            
+                  <hr>
+                  العنوان
+                  
+                <div class="mb-3 col-4  offset-1">
+                  <label for="local" class="form-label">المدينة</label>
+                  <input  id="local" class="form-control" [(ngModel)]="selectedCustomer.address.city" name="local" required>
+                </div>
+                <div class="mb-3 col-4 ">
+                  <label for="completion" class="form-label">اسم الشارع  </label>
+                  <input  id="completion" class="form-control" [(ngModel)]="selectedCustomer.address.streetName" name="completion" required>
+                </div>
+                
+              <div class="mb-3 col-2">
+                <label for="duration" class="form-label">رقم الشارع</label>
+                <input  type="number" id="duration" class="form-control select " [(ngModel)]="selectedCustomer.address.streetNumber" name="duration" required>
+              </div>
+                </div>
+                  <div class="row">
+
+            
+
+              </div>
+              <button type="submit" class="btn btn-success">حفظ</button>
+          </form>
+        </div>
+        <!-- Delete Confirmation -->
+        <div *ngIf="modalMode === 'delete'">
+          <p>هل أنت متأكد من أنك تريد حذف عنصر {{ selectedCustomer.customerName }} ؟</p>
+          <button type="button" class="btn m-4 btn-danger" (click)="delete()">Delete</button>
+          <button type="button" class="btn m-4 btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

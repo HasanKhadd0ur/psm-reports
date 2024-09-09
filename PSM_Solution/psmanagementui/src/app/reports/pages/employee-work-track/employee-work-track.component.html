@@ -1,0 +1,59 @@
+<div class="container-fluid" *ngIf="project && employeesTrack && employeee ">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="row align-items-center mb-4">
+          <div class="col">
+            <h2 class="h5 page-title">
+              <small class="text-muted text-uppercase">بطاقة متابعات مشارك </small>
+            </h2>
+          </div>
+          <div class="col-auto">
+            <button
+              type="button"
+              class="btn mr-1 btn-secondary m-1"
+            >
+              طباعة
+            </button>
+          </div>
+        </div>
+        
+        <div class="card shadow" id="pdfContent">
+          <div class="card-body p-5">
+           <project-subjectiv-unformal
+           [project]="project"
+           >
+
+           </project-subjectiv-unformal>
+            <hr />
+            
+            <p>
+                 إن السيد <b>{{employeee.personalInfo | fullname}} </b> ذو الرقم الذاتي <b>{{employeee.hiastId}}</b> يعمل في المشروع والجدول المبين أدناه يبين متابعاته في المشروع 
+            </p>
+            <div class="row text-secondary" *ngI="employeesTrack.length ==0">
+              لم تتم متابعته من قبل 
+            </div>
+
+            <employee-trak-table
+            *ngIf="employeesTrack.length>0"
+            [employeeTrack]="employeesTrack" >
+
+            </employee-trak-table>
+            
+            <hr>
+            
+            <project-footer
+              [proposer]="project.proposer"
+              [executer]="project.executer"
+              [projectManager]="project.projectManager"
+              [teamLeader]="project.teamLeader"
+            >
+            </project-footer>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+      <!-- /.col-12 -->
+    </div>
+  </div>
+  
