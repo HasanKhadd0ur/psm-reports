@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="AExdfZi8lxVCNn24nAh7">
+    <mxGraphModel dx="607" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-4" value="StartNewPlanProcess(projectId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-2">
+          <mxGeometry x="-0.0381" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-1" target="4daYGa7jEbA0-Ysh8HM2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-7" value="GetProjectDetails(projectId)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-6">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-31" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-6">
+          <mxGeometry x="-0.7182" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-1" target="4daYGa7jEbA0-Ysh8HM2-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-30" value="AddParticipation(paricipantId,projectId,workHoursRatio)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-1" target="4daYGa7jEbA0-Ysh8HM2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-34" value="3*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-30">
+          <mxGeometry x="-0.6306" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-1" value=": Project Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-9" target="4daYGa7jEbA0-Ysh8HM2-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-15" value="step=Create(stepName,weight):Step" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-14">
+          <mxGeometry x="-0.1646" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-32" value="2.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-14">
+          <mxGeometry x="-0.8764" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4daYGa7jEbA0-Ysh8HM2-9" target="4daYGa7jEbA0-Ysh8HM2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-18" value="AddStep(step)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-17">
+          <mxGeometry x="0.168" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-33" value="2.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4daYGa7jEbA0-Ysh8HM2-17">
+          <mxGeometry x="-0.6152" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-9" value=":Project" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-11" value="2* AddStep(stepName,weight)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="250" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-13" value=":Step" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="380" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-16" value=":Project Steps" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4daYGa7jEbA0-Ysh8HM2-20">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-19" value=":Project Steps" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4daYGa7jEbA0-Ysh8HM2-20">
+          <mxGeometry x="10" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="50" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-5" value="&amp;nbsp;:Projects Specification" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4daYGa7jEbA0-Ysh8HM2-23">
+          <mxGeometry width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-22" value="&amp;nbsp;:Projects Specification" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4daYGa7jEbA0-Ysh8HM2-23">
+          <mxGeometry x="10" y="10" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4daYGa7jEbA0-Ysh8HM2-29" value="Participantions Register" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
